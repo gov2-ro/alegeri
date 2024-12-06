@@ -1,0 +1,23 @@
+SELECT alegeri,
+    diaspora,
+    Judet,
+    timestamp || ' Europe/Bucharest' as timestamp,
+    inscrisi_L_permanente,
+    inscrisi_L_complementare,
+    LP,
+    LS,
+    LSC,
+    UM,
+    LT,
+    "M_1824",
+    "M_2534",
+    "M_3544",
+    "M_4564",
+    "M_65+",
+    "F_1824",
+    "F_2534",
+    "F_3544",
+    "F_4564",
+    "F_65+"
+FROM prezenta_judet
+WHERE LT > 0

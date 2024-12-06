@@ -1,0 +1,6 @@
+---
+title: "Judet"
+---
+
+
+{params.judet}
